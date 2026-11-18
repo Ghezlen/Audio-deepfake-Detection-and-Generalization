@@ -1,0 +1,11 @@
+run_id: B_trim
+model: B            # LFCC(+delta,+delta-delta) + compact CNN
+trim: true
+batch_size: 64
+epochs: 30
+lr: 3.0e-4
+weight_decay: 1.0e-2
+patience: 5
+grad_clip: 5.0
+num_workers: 2
+seeds: [0, 1, 2]

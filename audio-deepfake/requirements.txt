@@ -1,0 +1,15 @@
+# On Colab, torch/torchaudio/torchvision are preinstalled with CUDA; do NOT pip-install
+# them unless you need a specific version. The rest are light.
+# After a successful run, pin exact versions with:
+#   pip freeze | grep -E "torch|numpy|pandas|scikit|soundfile|librosa|joblib|yaml|matplotlib|pyarrow" > requirements.lock
+numpy
+pandas
+scipy
+scikit-learn
+soundfile
+librosa
+joblib
+tqdm
+pyyaml
+matplotlib
+pyarrow

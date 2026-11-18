@@ -1,0 +1,9 @@
+# shared defaults (copied into each run config for clarity; edit per file as needed)
+batch_size: 64        # drop to 32 only if OOM, and record it in DECISIONS.md
+epochs: 30
+lr: 3.0e-4
+weight_decay: 1.0e-2
+patience: 5
+grad_clip: 5.0
+num_workers: 2
+seeds: [0, 1, 2]

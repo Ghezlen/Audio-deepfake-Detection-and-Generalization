@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+data/*.csv
+data/*.npz
+data/*.parquet
+results/runs/*
+results/shortcut/*
+results/tables/*
+results/figures/*
+!**/.gitkeep
+*.pt
